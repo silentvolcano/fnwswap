@@ -89,10 +89,12 @@ export function tryParseAmount(value?: string, currency?: Currency): CurrencyAmo
 }
 
 const BAD_RECIPIENT_ADDRESSES: string[] = [
-  '0x9A1632c1dbD3750bA56720876a548ae48548682D', // v2 factory fnw2021.01.27 modify
-  '0xf164fC0Ec4E93095b804a4795bBe1e041497b92a', // v2 router 01
-  '0xcbf424d6775d7aa0d3e88c48a6c95669946e3668' // v2 router 02 fnw2021.01.27 modify
+  '0x9A1632c1dbD3750bA56720876a548ae48548682D', // v2 factory fnwswap 2021.01.27 modify
+  //'0xf164fC0Ec4E93095b804a4795bBe1e041497b92a', // v2 router 01
+  '0xcbf424d6775d7aa0d3e88c48a6c95669946e3668' // v2 router 02 fnwswap 2021.01.27 modify
 ]
+
+
 
 /**
  * Returns true if any of the pairs or tokens in a trade have the given checksummed address

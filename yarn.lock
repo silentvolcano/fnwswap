@@ -2718,10 +2718,9 @@
   resolved "https://registry.yarnpkg.com/@uniswap/merkle-distributor/-/merkle-distributor-1.0.1.tgz#dc3d911f65a860fc3f0cae074bdcd08ed6a27a4d"
   integrity sha512-5gDiTI5hrXIh5UWTrxKYjw30QQDnpl8ckDSpefldNenDlYO1RKkdUYMYpvrqGi2r7YzLYTlO6+TDlNs6O7hDRw==
 
-"@uniswap/sdk@3.0.3":
+"@uniswap/sdk@git://github.com/silentvolcano/uniswap-sdk.git#v2":
   version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk/-/sdk-3.0.3.tgz#8201c7c72215d0030cb99acc7e661eff895c18a9"
-  integrity sha512-t4s8bvzaCFSiqD2qfXIm3rWhbdnXp+QjD3/mRaeVDHK7zWevs6RGEb1ohMiNgOCTZANvBayb4j8p+XFdnMBadQ==
+  resolved "git://github.com/silentvolcano/uniswap-sdk.git#4ec8f272b587063bd87331e3e1cee65d19a65bc5"
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"
